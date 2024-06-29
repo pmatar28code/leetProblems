@@ -31,3 +31,12 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+# Add this line to ensure .kts scratch files are not ignored
+!*.kts
+
+# Ensure the scratches/ directory is not ignored
+!scratches/
+
+# Ensure all .kts files in the scratches/ directory are not ignored
+!scratches/*.kts
